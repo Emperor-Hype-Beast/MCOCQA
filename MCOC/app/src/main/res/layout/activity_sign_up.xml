@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        >
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Name"
+        >
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+        </AutoCompleteTextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Surname"
+        >
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+        </AutoCompleteTextView>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/Grade"
+        >
+        <AutoCompleteTextView
+            android:id="@+id/GradeSelector"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="number"
+            >
+
+        </AutoCompleteTextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/Gender"
+        >
+        <AutoCompleteTextView
+            android:id="@+id/GenderSelector"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="text"
+            >
+
+        </AutoCompleteTextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/Role"
+        >
+        <AutoCompleteTextView
+            android:id="@+id/RoleSelector"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="text"
+            >
+
+        </AutoCompleteTextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Password"
+        >
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+        </AutoCompleteTextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Re-Enter Password"
+        >
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+        </AutoCompleteTextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Sign Up!"
+        >
+
+    </Button>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

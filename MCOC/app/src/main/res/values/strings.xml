@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MCOC</string>
+    <string name="Gender">Select Gender</string>
+    <string name="Grade">Select Grade</string>
+    <string name="Role">Select Role</string>
+</resources>
